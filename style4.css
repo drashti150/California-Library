@@ -1,0 +1,437 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: rgb(18, 99, 149);
+    display: flex;
+    color: white;
+    justify-content: space-between;
+
+
+}
+
+.left-side-sec {
+    display: inline-block;
+}
+
+button {
+
+    border-radius: 2px;
+    height: 40px;
+    width: 80px;
+    margin-left: 30px;
+    border: 1px solid black;
+    background: white;
+}
+
+.menu {
+
+    justify-content: space-between;
+    margin: 10px;
+
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    margin: 15px;
+}
+
+.menu li a:hover {
+    color: rgb(207, 193, 101);
+}
+
+.menu ul li {
+
+    display: inline-block;
+
+}
+
+.menu li i a:hover {
+    color: rgb(207, 193, 101);
+}
+
+.icon {
+    margin: 10px;
+    word-spacing: 10px;
+    position: absolute;
+    display: inline-block;
+}
+
+.icon i a:hover {
+
+    color: rgb(207, 193, 101);
+}
+
+.footer {
+    display: inline;
+}
+
+h1 {
+    display: block;
+    margin: 10px
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.header-left-side {
+    width: 40%;
+    bottom: 30px;
+    margin-left: 100px;
+}
+
+.header-right-side {
+    text-align: center;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(253, 172, 10);
+    font-size: xx-large;
+}
+
+.right-section {
+    color: black;
+    font-size: x-large;
+}
+
+.searchbar {
+    background: lightgrey;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.list {
+    padding-top: 15px;
+
+}
+
+.list ul li {
+    color: blue;
+    font-weight: bold;
+
+}
+
+.div-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+    font-weight: bold;
+    font-size: large;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div-container a {
+    color: rgb(5, 104, 141);
+    text-decoration: none;
+}
+
+.div-container div a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.div-container div {
+    padding: 20px 0px;
+    width: calc(100% / 6);
+    background: rgb(170, 186, 196);
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.leftside-section {
+    margin-left: 50px;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.note {
+    display: block;
+    font-weight: 200;
+    box-sizing: border-box;
+}
+
+.note a h3:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.note a {
+    text-decoration: none;
+    color: black;
+}
+
+.link-sec {
+    padding-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: small;
+}
+
+.link-sec li a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.link-sec li a {
+    color: rgb(5, 104, 141);
+    text-decoration: none;
+
+}
+
+.left-sec {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    margin-left: 40px;
+
+}
+
+.left-sec li a:hover {
+    color: rgb(207, 193, 101);
+    text-decoration: underline;
+}
+
+.left-sec li a {
+    color: white;
+    text-decoration: none;
+}
+
+.left-sec ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 15px;
+}
+
+.footer {
+    height: 50px;
+    justify-content: space-between;
+    background: black;
+    display: flex;
+    color: white;
+
+
+}
+
+.right-sec {
+    color: white;
+    width: 20%;
+    padding: 5px;
+    word-spacing: 15px;
+    font-size: x-large;
+
+}
+
+.right-sec a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.right-sec ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px;
+}
+
+
+.hello {
+    box-sizing: border-box;
+}
+
+.link {
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+}
+
+.div-content {
+    display: inline-block;
+
+}
+
+.left-sect {
+    background-color: rgb(233, 233, 233);
+    height: 15%;
+    width: 30%;
+    display: inline-flex;
+    text-align: center;
+    font-size: x-large;
+    padding: 10px;
+    margin-left: 20px;
+
+}
+
+
+.right-sect {
+    background-color: rgb(233, 233, 233);
+    height: 15%;
+    width: 30%;
+    display: inline-flex;
+    text-align: center;
+    font-size: x-large;
+    padding: 10px;
+    justify-content: end;
+
+}
+
+
+
+.copy {
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    padding: 10px;
+    font-family: Arial;
+    height: 25px;
+    justify-content: left;
+
+
+}
+
+.todo-container {
+    /* background: red; */
+    /* margin: 0px 108px; */
+    width: calc(100% - 250px);
+    margin: auto;
+    display: flex;
+}
+
+.todo-container .left-todo-con {
+    width: 70%;
+    /* background: blue; */
+    height: 100%;
+
+}
+
+
+.todo-container .left-todo-con .todo-box a :hover {
+    color: black;
+    text-decoration: underline;
+
+}
+
+.todo-container .left-todo-con h1 {
+    margin-left: 0px !important;
+    font-size: x-large;
+}
+
+.todo-container .left-todo-con h5 {
+    font-size: x-large;
+    padding: 15px 10px 10px 10px;
+}
+
+.todo-container .left-todo-con p {
+    padding: 15px 10px 15px 10px;
+    font-family: 'Times New Roman';
+}
+
+.todo-container .left-todo-con .todo-box a {
+    color: rgb(5, 104, 141);
+    font-family: Arial;
+    text-decoration: none;
+}
+
+.todo-container .right-todo-con {
+    width: 30%;
+    /* background: green; */
+    height: 100%;
+    padding-left: 30px;
+    font-family: Arial;
+}
+
+.todo-container .right-todo-con .news-box a {
+    color: rgb(5, 104, 141);
+    font-family: Arial;
+    text-decoration: none;
+
+}
+
+.todo-container .right-todo-con .news-box a :hover {
+    color: black;
+    text-decoration: underline;
+
+}
+
+.todo-box {
+    border: 1px solid rgb(211, 211, 211);
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.todo-box img {
+    width: 100%;
+}
+
+.news-box {
+    padding-bottom: 20px;
+}
+
+.link {
+    width: calc(100% - 200px);
+    margin: auto;
+    display: flex;
+    padding: 20px 10px 20px 10px;
+}
+
+.element {
+    width: 30%;
+    padding-right: 10px;
+    display: inline-block;
+    padding: 10px 10px 20px 20px;
+    font-size: small;
+
+}
+
+.element img {
+    width: 100%;
+}
+
+.element a {
+    color: rgb(5, 104, 141);
+    text-decoration: none;
+    height: 90px;
+
+}
+
+.element a :hover {
+    display: flex;
+    color: black;
+    text-decoration: underline;
+}
+
+.element li a {
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.element li a:hover {
+    color: black;
+    text-decoration: underline;
+
+}
+
+.footer-sec {
+    width: 380px;
+    text-align: center;
+    background: rgb(160, 181, 194);
+    height: 290px;
+
+}
+
+.last {
+    width: calc(100% - 200px);
+    margin: auto;
+    display: flex;
+    padding: 20px 10px 20px 10px;
+}

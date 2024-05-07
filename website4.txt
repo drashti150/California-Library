@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+<title>Online HTML Editor</title>
+<head>
+</head>
+<body>
+<!--Navbar Start-->
+    <div class="navbar">
+        <div class="logo-sec">
+            <div class="left-side-sec.">
+            <h1>A.gov</h1>
+            <label>Share:</label>
+            <button>Facebook</button>
+            <button>Twiter</button>
+            <button>E-mail</button>
+            </div>
+        </div>
+        <div class="menu-sec">
+            <ul>
+                <li><a href="#">Join our mailing lists</a></li>
+                <li><a href="#">Contat Us</a></li>
+                <li><a href="#">Get a library card</a></li>
+                <li><a href="#">Log in to your account</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </div>
+    </div>
+<!--Navbar End-->
+<!--Header Start-->
+    <div class="header">
+        <div class="header-item">
+            <div class="header-left-side">
+                <img src="California">
+             </div>
+            <div class="header-right-side">
+                <label>Services</label>
+                 <label>Grants</label>
+                  <label>Collections</label>
+                   <label>Work with US  </label>
+                    <label>About library  </label>
+                     <label>Ask a librarian  </label>
+            </div>
+        </div>
+    </div>
+<!--Header End-->
+<!--Searchbar Start-->
+    <div class="searchbar">
+        <ul>
+            <li>Web site</li>
+             <li>Catalog</li>
+             <li>Braille and Talking books</li>
+        </ul>
+        <input type="text" placeholder="">
+        <button>Search</button>
+        <div class="img-sec">
+            <img src="">
+        </div>
+    </div>
+<!--Searchbar End-->
+
+<!--Todo Section Start-->
+    <div class="todo-section">
+        <div class="todo-item">
+            <button>Get a library card</button>
+            <button>Online catelog</button>
+            <button>Find your library</button>
+            <button>Account Login</button>
+            <button>Online Resources</button>
+            <button>Career Pathways</button>
+            <button>State Symbols</button>
+            <button>Previous State Capitals</button>
+        </div>
+    </div>
+<!--Todo Section End-->
+<!--Todo img section Start-->
+  <div class=section>
+        <div class=leftside-section>
+             <label>Featured Programs & Exhibit</label>
+             <img src="logo">
+            <textarea name="comments" rows="2" cols="20"></textarea>
+             <img src="logo">
+            <textarea name="comments" rows="2" cols="20"></textarea>
+        </div>
+        <div class=rightside-section>
+                <label>Latest News</label>
+            <img src="">
+            <textarea name="comments" rows="2" cols="20"></textarea>
+            
+            <img src="">
+            <textarea name="comments" rows="2" cols="20"></textarea>
+            
+            <img src="">
+            <textarea name="comments" rows="2" cols="20"></textarea>
+                </div>
+                 </div>
+<!--Todo img section End-->
+
+<!--Todo img section start-->
+        <div class="Todo-list">
+                 <div class="img-sec">
+                     <img src="Services">
+                     <label>Services for all Californians</label>
+                 </div>
+            <div class="link-sec">
+                <h1>Popular Link</h1>
+                <ul>
+                    <li>Resources for Policymakers</li>
+                    <li>Online Tutoring</li>
+                    <li>California Research Bureau Reports</li>
+                    <li>State Document Depositories</li>
+                    <li>Online Collections</li>
+                    <li>Exhibits</li>
+                    <li>Grants for California Libraries</li>
+                    <li>California State Library Careers</li>
+                    <li>Contact Us</li>
+                    <li>Book Challenge — A Five-Step Checklist (PDF)</li>
+                </ul>
+            </div>
+            <div class=img src="">
+                <img src="logo">
+                <p>Gavin Newsom</p>
+                <p>California Governor</p>
+                <div class=img-sec>
+                    <img src="logo">
+                </div>
+                
+                <div class=img src="">
+                <img src="logo">
+                <p>Greg Lukas</p>
+                <p>California State Librarian</p>
+                </div>
+            </div>
+        </div>
+            
+<!--Todo img section End-->
+
+
+<!--Footer Start-->
+    <div class="footer">
+        <div class="left-sec">
+            <ul>
+              <li><a href="#">Back to top</a></li>
+              <li><a href="#">conditions of use</a></li>
+              <li><a href="#">privacy policy</a></li>
+              <li><a href="#">Accessibility</a></li>
+              <li><a href="#">Accessibility Certificaation</a></li>
+              <li><a href="#">Contact US</a></li>
+              <li> <a href="#">Register to vote</a></li>
+              <label>Select Language</label>
+              <select name="language"></select>
+           </ul>
+            
+        </div>
+        <div class="right-sec">
+           <button>Facebook</button>
+           <button>Twitter</button>
+           <button>You Tube</button>
+           <button>Pinterest</button>
+           <button>Twite</button>
+           <button>Camera</button>
+        </div>
+    </div>
+<!--Footer End-->
+
+<!--Copyright sec start -->
+<p>Copyright@2023 California State Library</p>
+<!--Copyright sec end -->
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+</*style*/>
+
+
+
+
+<!DOCTYPE html>
+<html>
+<title>Online HTML Editor</title>
+<head>
+    <style>
+        .navbar{
+            color:pink;
+            background: red;
+        }
+        .navbar .logo-sec{
+            background: yellow;
+        }
+        .navbar .logo-sec .left-side-sec h1{
+            background: blue;
+        } 
+    </style>
+</head>
+<body>
+<!--Navbar Start-->
+    <div class="navbar">
+        <div class="logo-sec">
+            <div class="left-side-sec">
+            <h1>A.gov</h1>
+            <label>Share:</label>
+            <button>Facebook</button>
+            <button>Twiter</button>
+            <button>E-mail</button>
+            </div>
+        </div>
+        <div class="menu-sec">
+            <ul>
+                <li><a href="#">Join our mailing lists</a></li>
+                <li><a href="#">Contat Us</a></li>
+                <li><a href="#">Get a library card</a></li>
+                <li><a href="#">Log in to your account</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </div>
+    </div>
+<!--Navbar End-->
+<!--Header Start-->
+    <div class="header">
+        <div class="header-item">
+            <div class="header-left-side">
+                <img src="California">
+             </div>
+            <div class="header-right-side">
+                <label>Services</label>
+                 <label>Grants</label>
+                  <label>Collections</label>
+                   <label>Work with US  </label>
+                    <label>About library  </label>
+                     <label>Ask a librarian  </label>
+            </div>
+        </div>
+    </div>
+<!--Header End-->
+<!--Searchbar Start-->
+    <div class="searchbar">
+        <ul>
+            <li>Web site</li>
+             <li>Catalog</li>
+             <li>Braille and Talking books</li>
+        </ul>
+        <input type="text" placeholder="">
+        <button>Search</button>
+        <div class="img-sec">
+            <img src="">
+        </div>
+    </div>
+<!--Searchbar End-->
+
+<!--Todo Section Start-->
+    <div class="todo-section">
+        <div class="todo-item">
+            <button>Get a library card</button>
+            <button>Online catelog</button>
+            <button>Find your library</button>
+            <button>Account Login</button>
+            <button>Online Resources</button>
+            <button>Career Pathways</button>
+            <button>State Symbols</button>
+            <button>Previous State Capitals</button>
+        </div>
+    </div>
+<!--Todo Section End-->
+<!--Todo img section Start-->
+  <div class=section>
+        <div class=leftside-section>
+             <label>Featured Programs & Exhibit</label>
+             <img src="logo">
+            <textarea name="comments" rows="2" cols="20"></textarea>
+             <img src="logo">
+            <textarea name="comments" rows="2" cols="20"></textarea>
+        </div>
+        <div class=rightside-section>
+                <label>Latest News</label>
+            <img src="">
+            <textarea name="comments" rows="2" cols="20"></textarea>
+            
+            <img src="">
+            <textarea name="comments" rows="2" cols="20"></textarea>
+            
+            <img src="">
+            <textarea name="comments" rows="2" cols="20"></textarea>
+                </div>
+                 </div>
+<!--Todo img section End-->
+
+<!--Todo img section start-->
+        <div class="Todo-list">
+                 <div class="img-sec">
+                     <img src="Services">
+                     <label>Services for all Californians</label>
+                 </div>
+            <div class="link-sec">
+                <h1>Popular Link</h1>
+                <ul>
+                    <li>Resources for Policymakers</li>
+                    <li>Online Tutoring</li>
+                    <li>California Research Bureau Reports</li>
+                    <li>State Document Depositories</li>
+                    <li>Online Collections</li>
+                    <li>Exhibits</li>
+                    <li>Grants for California Libraries</li>
+                    <li>California State Library Careers</li>
+                    <li>Contact Us</li>
+                    <li>Book Challenge — A Five-Step Checklist (PDF)</li>
+                </ul>
+            </div>
+            <div class=img src="">
+                <img src="logo">
+                <p>Gavin Newsom</p>
+                <p>California Governor</p>
+                <div class=img-sec>
+                    <img src="logo">
+                </div>
+                
+                <div class=img src="">
+                <img src="logo">
+                <p>Greg Lukas</p>
+                <p>California State Librarian</p>
+                </div>
+            </div>
+        </div>
+            
+<!--Todo img section End-->
+
+
+<!--Footer Start-->
+    <div class="footer">
+        <div class="left-sec">
+            <ul>
+              <li><a href="#">Back to top</a></li>
+              <li><a href="#">conditions of use</a></li>
+              <li><a href="#">privacy policy</a></li>
+              <li><a href="#">Accessibility</a></li>
+              <li><a href="#">Accessibility Certificaation</a></li>
+              <li><a href="#">Contact US</a></li>
+              <li> <a href="#">Register to vote</a></li>
+              <label>Select Language</label>
+              <select name="language"></select>
+           </ul>
+            
+        </div>
+        <div class="right-sec">
+           <button>Facebook</button>
+           <button>Twitter</button>
+           <button>You Tube</button>
+           <button>Pinterest</button>
+           <button>Twite</button>
+           <button>Camera</button>
+        </div>
+    </div>
+<!--Footer End-->
+
+<!--Copyright sec start -->
+<p>Copyright@2023 California State Library</p>
+<!--Copyright sec end -->
+</body>
+</html>
