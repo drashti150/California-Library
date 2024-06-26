@@ -286,6 +286,10 @@ h1 {
 
 }
 
+.img-sec img{
+    margin-left: 20px;
+    width: 100%;
+}
 
 
 .copy {
@@ -434,4 +438,139 @@ h1 {
     margin: auto;
     display: flex;
     padding: 20px 10px 20px 10px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1200px) {
+    .navbar,
+    .header,
+    .searchbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-right-side {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .todo-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .todo-container .left-todo-con,
+    .todo-container .right-todo-con {
+        width: 100%;
+    }
+
+    .link {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .element {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header-right-side {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .searchbar input[type="search"] {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .searchbar .list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .searchbar button {
+        width: 100%;
+    }
+
+    .img-sec img{
+        margin-left: 20px;
+        width: 100%;
+    }
+    
+    .footer ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer ul li {
+        margin: 5px 0;
+    }
+
+    .right-sec {
+        word-spacing: 5px;
+        font-size: large;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbar {
+        padding: 10px;
+    }
+
+    .header-left-side img {
+        height: 50px;
+    }
+
+    .header-right-side {
+        font-size: large;
+    }
+
+    .searchbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .searchbar .list {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .div-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div-container div {
+        width: 90%;
+        margin: 5px 0;
+    }
+
+    .todo-container {
+        width: 100%;
+    }
+
+    .todo-container .left-todo-con,
+    .todo-container .right-todo-con {
+        width: 100%;
+    }
+
+    .todo-box {
+        padding: 5px;
+    }
+
+    .link {
+        width: 100%;
+    }
+
+    .element {
+        width: 100%;
+    }
 }
